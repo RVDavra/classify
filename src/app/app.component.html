@@ -1,0 +1,12 @@
+<div>
+    <input type="file" #file name="file" id="id" capture accept="image/*">
+    <button (click)="btnClick(file)">click me</button>
+</div>
+
+
+
+<h1 *ngIf="!!className"> Class: {{className}} </h1>
+
+<h2 *ngIf="!!probability"> Probability: {{probability}} </h2>
+
+<div class="image-container" #img></div>
